@@ -1,0 +1,43 @@
+- pip install ultralytics opencv-python
+- pip install numpy
+- pip install tensorflow
+- pip install keras
+if  ERROR: Failed building wheel for opencv-python, usually indicating missing system dependencies or Python build tools
+- pip install --upgrade pip setuptools wheel
+Instead of building from source, install precompiled wheels, to skips GUI dependencies, avoiding conflicts, especially in Linux or virtual environments.
+- pip install opencv-python-headless
+If you need GUI support (cv2.imshow()), try:
+- pip install opencv-python
+Install System Dependencies (Linux/Mac), missing system packages could be the issue
+* Ubuntu/Debian:
+- sudo apt update
+- sudo apt install python3-dev python3-pip build-essential libopencv-dev
+* Mac (Homebrew):
+- brew install opencv
+in case of this error "from ultralytics import YOLO
+ModuleNotFoundError: No module named 'ultralytics'", 
+Install Ultralytics YOLO
+- pip install ultralytics
+Installation verification
+- python -c "from ultralytics import YOLO; print('Ultralytics YOLO installed successfully!')"
+If Issues Persist:
+Upgrade pip:
+- pip install --upgrade pip
+Make sure that python version is higher or equal to 3.7 as require by YOLOv8
+- python --version
+Install a Virtual environment(Optional but recommended
+- python -m venv yolo_env\n
+    source yolo_env/bin/activate  # On Windows: yolo_env\\Scripts\\activate\n
+    pip install ultralytics opencv-python
+For the latest version of python
+- python3 -m venv yolo_env
+activate the virtual environment
+- source yolo_env/bin/activate
+
+To run the Scripts:
+- python program name.py
+
+
+
+
+

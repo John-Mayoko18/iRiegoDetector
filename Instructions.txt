@@ -1,0 +1,1 @@
+Adjust pixelVal accordingly for accurate reading if not getting accuracy
