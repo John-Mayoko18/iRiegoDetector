@@ -16,7 +16,7 @@ password = "325Hjk53"
 # URL del recurso
 url = "https://camaras.canalparamo.com/api/CAM_REGLA_CANAL_DE_LA_MATA/latest.jpg"
 url = "https://camaras.canalparamo.com/api/REGLA_CANAL_DE_LA_MATA/latest.jpg"
-url = "https://camaras.canalparamo.com/api/PARTIDOR_SANTA_MARIA_-_CAMARA_2/latest.jpg"
+#url = "https://camaras.canalparamo.com/api/PARTIDOR_SANTA_MARIA_-_CAMARA_2/latest.jpg"
 
 
 
