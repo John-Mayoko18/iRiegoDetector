@@ -8,6 +8,7 @@ from requests.auth import HTTPBasicAuth
 
 # Load YOLOv8 pre-trained model (choose yolov8n.pt for lightweight or yolov8m.pt for better accuracy)
 model = YOLO('agua_nivel_detector.pt')
+model = YOLO('agua_nivel_detectv12.pt')
 
 # Credenciales de autenticación
 username = "informatica@iriego.es"
